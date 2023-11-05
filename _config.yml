@@ -75,14 +75,14 @@ exclude:
 
 social_icons:
   - Facebook
-  - Google Plus
+  #- Google Plus
   - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
+  #- LinkedIn
+  #- Pinterest
+  #- Tumblr
   - Twitter
   - YouTube
-  - RSS
+  #- RSS
 
 _options:
   author_image:
