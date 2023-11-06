@@ -3,7 +3,7 @@ date: 2023-11-05
 title: Cupcakes de chocolate
 categories:
   - Cupcakes
-  - Cakes
+  
 featured_image: https://source.unsplash.com/qJ0zGkrE1Zg/1560x940
 recipe:
   servings: 12 cupcakes

@@ -2,7 +2,7 @@
 date: 2023-11-05
 title: Pastel de limón
 categories:
-  - Cakes
+  - Pasteles
 featured_image: https://source.unsplash.com/NAN22eh754c/1560x940
 recipe:
   servings: 12 porciones
