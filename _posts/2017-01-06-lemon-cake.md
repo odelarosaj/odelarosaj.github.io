@@ -1,42 +1,42 @@
 ---
 date: 2017-01-06
-title: Lemon Cake
+title: Pastel de limón
 categories:
   - Cakes
 featured_image: https://source.unsplash.com/NAN22eh754c/1560x940
 recipe:
-  servings: 12 slices
-  prep: 15 minutes
-  cook: 65 minutes
+  servings: 12 porciones
+  prep: 15 minutos
+  cook: 65 minutos
   ingredients_markdown: |-
-    * 1 cup unsalted butter
-    * 2 1/2 cups all-purpose flour
-    * 1 teaspoon salt
-    * 1/2 teaspoon baking soda
-    * 1/2 teaspoon baking powder
-    * 3 cups of sugar
-    * 2 teaspoons of lemon zest
-    * 6 teaspoons of lemon juice
-    * 6 eggs
-    * 1 cup Greek yogurt
-    * 1 cup confectioners’ sugar
+    * 1 taza de mantequilla sin sal
+    * 2 1/2 tazas de harina de todo uso
+    * 1 cucharadita de sal
+    * 1/2 cucharada de bicarbonato
+    * 1/2 cucharada de levadura química
+    * 3 tazas de azúcar
+    * 2 cucharaditas de ralladura de limón
+    * 6 cucharaditas de jugo de limón
+    * 6 huevos
+    * 1 taza de yogur griego
+    * 1 taza de azúcar glas
   directions_markdown: |-
-    1. Heat oven to 325° F. Butter and flour a 12-cup Bundt pan. In a medium bowl, whisk together the flour, salt, baking soda, and baking powder.
-    2. Using an electric mixer, beat the butter, granulated sugar, and lemon zest on medium-high until light and fluffy, 3 to 4 minutes. Beat in 4 tablespoons of the lemon juice, then the eggs, one at a time, scraping down the sides of the bowl as necessary.
-    3. Reduce mixer speed to low. Add half the flour mixture, then the yogurt, and then the remaining flour mixture. Mix just until combined (do not overmix).
-    4. Transfer the batter to the prepared pan and bake until a toothpick inserted in the center comes out clean, 65 to 75 minutes. Cool the cake in the pan for 30 minutes, then turn it out onto a wire rack to cool completely.
-    5. In a small bowl, whisk together the confectioners’ sugar and 1 of the remaining tablespoons of lemon juice until smooth, adding the remaining lemon juice as necessary to create a thick, but pourable glaze.
+    1. Calienta el horno a 180°C. Unta con mantequilla y enharine un molde de 20cm. En un bowl mediano, mezcle la harina, la sal, el bicarbonato de sodio y el polvo para hornear.
+    2. Con una batidora eléctrica, bate la mantequilla, el azúcar granulada y la ralladura de limón con intensidad media-alta hasta que esté suave y esponjoso, de 3 a 4 minutos. Agrega 4 cucharadas de jugo de limón, luego los huevos, uno a la vez, raspando los lados del tazón según sea necesario.
+    3. Reduce la velocidad de la batidora a baja. Agrega la mitad de la mezcla de harina, luego el yogur y luego el resto de la mezcla de harina. Mezcla hasta que se combinen (no mezcles demasiado).
+    4. Transfiere la mezcla al molde preparado y hornea hasta que al insertar un palillo en el centro éste salga limpio, de 65 a 75 minutos. Enfría el pastel en el molde durante 30 minutos, luego colócalo sobre una rejilla para que se enfríe por completo
+    5. En un tazón pequeño, mezcla el azúcar glas y una de las cucharadas restantes de jugo de limón hasta que quede suave, agregando el jugo de limón restante según sea necesario para crear un glaseado espeso pero que se pueda verter.
 ---
-If you're a sour fan you're going to love this cake. Lemon Cake is one of my favorite year-round desserts, but it is a perfect choice for spring and summer, when everyone tends to crave citrus or light & flavorful recipes
+Si eres un fanático del cítrico, te encantará este pastel. El pastel de limón es uno de mis postres favoritos durante todo el año, pero es una opción perfecta para la primavera y el verano, cuando todos tienden a desear recetas cítricas o ligeras y sabrosas.
 
 ![Cake](https://source.unsplash.com/1HPTYLozDGw)
 
-Straight out of the oven.
+Recién salido del horno.
 
 ![Cake](https://source.unsplash.com/WoVGndRTx2o)
 
-You can add extra flavour with berries.
+Puedes agregar sabor extra con bayas.
 
 ![Cake](https://source.unsplash.com/7JYVKRo7i5Q)
 
-Or a caramel sauce.
+O un sirope de caramelo.
