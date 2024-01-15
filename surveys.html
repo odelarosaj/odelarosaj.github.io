@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Suscripción a Juegos de Mesa - Encuesta</title>
+  <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -124,10 +125,12 @@
       color: #777;
       text-decoration: none;
     }
+
     /* Cambiar el color de fondo de las opciones de la pregunta 2 */
     .form-select {
       background-color: #ffffff; /* Color de fondo blanco para mejorar la visibilidad */
       color: #000000; /* Color del texto de las opciones */
+      width: 100%; /* Asegurar que ocupe el 100% del ancho en dispositivos móviles */
     }
 
     /* Cambiar el color del borde de las opciones de la pregunta 2 */
@@ -135,17 +138,17 @@
       border-color: #ffc107; /* Color del borde cuando se selecciona la opción */
     }
 
-/* Cambiar el color del texto de las opciones de la pregunta 2 */
-.form-select option {
-  color: #000000;
-}
+    /* Cambiar el color del texto de las opciones de la pregunta 2 */
+    .form-select option {
+      color: #000000;
+    }
 
-/* Estilo adicional para resaltar el borde alrededor de las opciones */
-.form-select {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 8px;
-}
+    /* Estilo adicional para resaltar el borde alrededor de las opciones */
+    .form-select {
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 8px;
+    }
   </style>
 </head>
 <body>
@@ -180,46 +183,63 @@
 
         <form id="encuestaForm">
           <!-- Preguntas de la encuesta -->
-          <div class="mb-3">
-            <label for="pregunta1" class="form-label">1. ¿Cuál es tu juego de mesa favorito?</label>
-            <input type="text" class="form-control" id="pregunta1" required>
-          </div>
-
-          <div class="mb-3">
-            <label for="pregunta2" class="form-label">2. ¿Con qué frecuencia juegas a juegos de mesa?</label>
-            <select class="form-select" id="pregunta2" required>
-              <option value="diario">Diario</option>
-              <option value="semanal">Semanal</option>
-              <option value="mensual">Mensual</option>
-              <option value="raramente">Raramente</option>
-              <option value="nunca">Nunca</option>
-            </select>
-          </div>
-
-          <div class="mb-3">
-            <label for="pregunta3" class="form-label">3. ¿Prefieres los juegos cooperativos o competitivos?</label>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="pregunta3" id="coop" value="cooperativo" required>
-              <label class="form-check-label" for="coop">Cooperativo</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="pregunta3" id="comp" value="competitivo" required>
-              <label class="form-check-label" for="comp">Competitivo</label>
+          <div class="row">
+            <div class="col-xs-12 mb-3">
+              <label for="pregunta1" class="form-label">1. ¿Cuál es tu juego de mesa favorito?</label>
+              <input type="text" class="form-control" id="pregunta1" required>
             </div>
           </div>
 
-          <div class="mb-3">
-            <label for="pregunta4" class="form-label">4. ¿Cuántos jugadores suelen participar en tus partidas?</label>
-            <input type="number" class="form-control" id="pregunta4" min="1" required>
+          <div class="row">
+            <div class="col-xs-12 mb-3">
+              <label for="pregunta2" class="form-label">2. ¿Con qué frecuencia juegas a juegos de mesa?</label>
+              <select class="form-select" id="pregunta2" required>
+                <option value="diario">Diario</option>
+                <option value="semanal">Semanal</option>
+                <option value="mensual">Mensual</option>
+                <option value="raramente">Raramente</option>
+                <option value="nunca">Nunca</option>
+              </select>
+            </div>
           </div>
 
-          <div class="mb-3">
-            <label for="pregunta5" class="form-label">5. ¿Tienes alguna temática preferida en los juegos de mesa?</label>
-            <input type="text" class="form-control" id="pregunta5" required>
+          <div class="row">
+            <div class="col-xs-12 mb-3">
+              <label for="pregunta3" class="form-label">3. ¿Prefieres los juegos cooperativos o competitivos?</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="pregunta3" id="coop" value="cooperativo" required>
+                <label class="form-check-label" for="coop">Cooperativo</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="pregunta3" id="comp" value="competitivo" required>
+                <label class="form-check-label" for="comp">Competitivo</label>
+              </div>
+            </div>
           </div>
 
-          <button type="button" class="btn btn-warning btn-submit" onclick="enviarEncuesta()">Enviar Encuesta</button>
-          <a href="index.html" class="btn btn-primary btn-skip">Saltar Encuesta</a>
+          <div class="row">
+            <div class="col-xs-12 mb-3">
+              <label for="pregunta4" class="form-label">4. ¿Cuántos jugadores suelen participar en tus partidas?</label>
+              <input type="number" class="form-control" id="pregunta4" min="1" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 mb-3">
+              <label for="pregunta5" class="form-label">5. ¿Tienes alguna temática preferida en los juegos de mesa?</label>
+              <input type="text" class="form-control" id="pregunta5" required>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-6">
+              <button type="button" class="btn btn-warning btn-submit" onclick="enviarEncuesta()">Enviar Encuesta</button>
+            </div>
+            <div class="col-xs-6">
+              <a href="index.html" class="btn btn-primary btn-skip">Saltar Encuesta</a>
+            </div>
+          </div>
+          
         </form>
 
       </div>
