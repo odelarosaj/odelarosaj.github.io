@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Ajustes de Suscripción</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-image: url('ruta_de_la_imagen.jpg'); /* Cambia 'ruta_de_la_imagen.jpg' por la ruta de tu imagen */
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #495057;
+      padding-top: 56px; /* Ajuste para el navbar fijo */
+    }
+
+    .navbar {
+      background-color: rgba(0, 123, 255, 0.8); /* Fondo del navbar ligeramente transparente */
+    }
+
+    .container {
+      max-width: 600px;
+    }
+
+    .card {
+      margin-top: 50px;
+      border: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-header {
+      background-color: #007bff;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .card-body {
+      padding: 30px;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    .form-check-label {
+      font-weight: bold;
+    }
+
+    .btn-save,
+    .btn-cancel {
+      color: #ffffff;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      opacity: 0.9; /* Ajuste de opacidad */
+    }
+
+    .btn-save {
+      background: linear-gradient(to right, #28a745, #218838);
+      border: 1px solid #218838;
+    }
+
+    .btn-save:hover {
+      background: linear-gradient(to right, #218838, #1e7e34);
+      border: 1px solid #1e7e34;
+    }
+
+    .btn-cancel {
+      background: linear-gradient(to right, #dc3545, #c82333);
+      border: 1px solid #c82333;
+    }
+
+    .btn-cancel:hover {
+      background: linear-gradient(to right, #c82333, #bd2130);
+      border: 1px solid #bd2130;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Juegos de Mesa</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h2>Ajustes de Suscripción</h2>
+      </div>
+      <div class="card-body">
+        <form>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="notificaciones" checked>
+              <label class="form-check-label" for="notificaciones">Recibir notificaciones por correo electrónico</label>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="ofertas" checked>
+              <label class="form-check-label" for="ofertas">Recibir ofertas exclusivas</label>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="novedades">
+              <label class="form-check-label" for="novedades">Estar al tanto de las novedades</label>
+            </div>
+            <div class="mb-3">
+              <label for="frecuencia" class="form-label">Frecuencia de envío</label>
+              <select class="form-select" id="frecuencia">
+                <option value="diaria">Diaria</option>
+                <option value="semanal">Semanal</option>
+                <option value="mensual">Mensual</option>
+              </select>
+            </div>
+  
+            <button type="button" class="btn btn-success btn-save" onclick="window.location.href='otrapagina.html'">Guardar Cambios</button>
+            <button type="button" class="btn btn-danger btn-cancel" onclick="window.location.href='otrapagina.html'">Cancelar</button>
+          </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts de Bootstrap y otras dependencias si es necesario -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

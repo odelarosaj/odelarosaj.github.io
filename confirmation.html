@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Suscripción a Juegos de Mesa - Confirmación</title>   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    body {
+      background-image: url('images/monopoly.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      min-height: 100vh;
+      margin: 0;
+      position: relative;
+    }
+
+    .container {
+      max-width: 600px;
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-header {
+      background-color: #007bff; 
+      color: #ffffff;
+      text-align: center;
+    }
+
+    .card-body {
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco transparente */
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .survey-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      color: #0056b3; 
+      text-decoration: underline;
+    }
+
+    .navbar {
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+    }
+
+    .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+    }
+
+    .navbar-nav li a:hover {
+      color: #fff !important;
+    }
+
+    .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+    }
+
+    .navbar-default .navbar-toggle {
+      border-color: transparent;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+    }
+
+    footer a {
+      color: #f5f5f5;
+    }
+
+    footer a:hover {
+      color: #777;
+      text-decoration: none;
+    }  
+  </style>
+</head>
+<body>
+   <!-- Navbar del código 1 -->
+   <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Juegos de Mesa en Familia</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">HOME</a></li>          
+          <li><a href="surveys.html">ENCUESTA</a></li>        
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h2>¡Gracias por Suscribirte!</h2>
+      </div>
+      <div class="card-body">
+        <p class="lead">Te damos la bienvenida a nuestra comunidad de juegos de mesa. Estás a punto de embarcarte en una emocionante aventura llena de noticias, ofertas exclusivas y nuevos lanzamientos.</p>
+        <p>Pronto recibirás nuestro boletín en tu correo electrónico. ¡Prepárate para descubrir todo lo que el mundo de los juegos de mesa tiene para ofrecer!</p>
+
+        <a href="surveys.html" class="survey-link">Realizar Encuesta</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br><br>
+    <p>Tema de Bootstrap realizado por Johans Rodriguez & Oscar de la Rosa</p> 
+  </footer>
+  <!-- Scripts de Bootstrap y otras dependencias -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

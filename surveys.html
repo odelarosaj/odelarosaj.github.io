@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Suscripción a Juegos de Mesa - Encuesta</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      background-image: url('images/monopoly.jpg');
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    .container {
+      max-width: 600px;
+      background-color: rgba(0, 0, 0, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      padding: 30px;
+    }
+
+    .card-header {
+      background-color: #ffc107;
+      color: #000000;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 30px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    .form-label {
+      font-weight: bold;
+    }
+
+    .mb-3 {
+      margin-bottom: 20px;
+    }
+
+    .btn-submit,
+    .btn-skip {
+      color: #ffffff;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      opacity: 0.9;
+    }
+
+    .btn-submit {
+      background: linear-gradient(to right, #ffeb3b, #ffc107);
+      border: 1px solid #ffc107;
+    }
+
+    .btn-submit:hover {
+      background: linear-gradient(to right, #e0c008, #e0a800);
+      border: 1px solid #e0a800;
+    }
+
+    .btn-skip {
+      background: linear-gradient(to right, #2196f3, #007bff);
+      border: 1px solid #007bff;
+    }
+
+    .btn-skip:hover {
+      background: linear-gradient(to right, #0056b3, #004d9f);
+      border: 1px solid #004d9f;
+    }
+
+    /* Estilos del Navbar del código 2 */
+    .navbar {
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+    }
+
+    .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+    }
+
+    .navbar-nav li a:hover {
+      color: #fff !important;
+    }
+
+    .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+    }
+
+    .navbar-default .navbar-toggle {
+      border-color: transparent;
+    }
+
+    /* Estilos del Footer del código 2, ajustado para mantenerse al final de la página */
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+    }
+
+    footer a {
+      color: #f5f5f5;
+    }
+
+    footer a:hover {
+      color: #777;
+      text-decoration: none;
+    }
+    /* Cambiar el color de fondo de las opciones de la pregunta 2 */
+    .form-select {
+      background-color: #ffffff; /* Color de fondo blanco para mejorar la visibilidad */
+      color: #000000; /* Color del texto de las opciones */
+    }
+
+    /* Cambiar el color del borde de las opciones de la pregunta 2 */
+    .form-select:focus {
+      border-color: #ffc107; /* Color del borde cuando se selecciona la opción */
+    }
+
+/* Cambiar el color del texto de las opciones de la pregunta 2 */
+.form-select option {
+  color: #000000;
+}
+
+/* Estilo adicional para resaltar el borde alrededor de las opciones */
+.form-select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+  </style>
+</head>
+<body>
+
+  <!-- Navbar del código 2 -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Juegos de Mesa en Familia</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">HOME</a></li>          
+          <li><a href="surveys.html">ENCUESTA</a></li>           
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h2>Suscripción a Juegos de Mesa - Encuesta</h2>
+      </div>
+      <div class="card-body">
+        <p class="lead">¡Queremos conocer tus preferencias! Por favor, toma unos minutos para completar nuestra encuesta sobre juegos de mesa.</p>
+
+        <form id="encuestaForm">
+          <!-- Preguntas de la encuesta -->
+          <div class="mb-3">
+            <label for="pregunta1" class="form-label">1. ¿Cuál es tu juego de mesa favorito?</label>
+            <input type="text" class="form-control" id="pregunta1" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="pregunta2" class="form-label">2. ¿Con qué frecuencia juegas a juegos de mesa?</label>
+            <select class="form-select" id="pregunta2" required>
+              <option value="diario">Diario</option>
+              <option value="semanal">Semanal</option>
+              <option value="mensual">Mensual</option>
+              <option value="raramente">Raramente</option>
+              <option value="nunca">Nunca</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="pregunta3" class="form-label">3. ¿Prefieres los juegos cooperativos o competitivos?</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pregunta3" id="coop" value="cooperativo" required>
+              <label class="form-check-label" for="coop">Cooperativo</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="pregunta3" id="comp" value="competitivo" required>
+              <label class="form-check-label" for="comp">Competitivo</label>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="pregunta4" class="form-label">4. ¿Cuántos jugadores suelen participar en tus partidas?</label>
+            <input type="number" class="form-control" id="pregunta4" min="1" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="pregunta5" class="form-label">5. ¿Tienes alguna temática preferida en los juegos de mesa?</label>
+            <input type="text" class="form-control" id="pregunta5" required>
+          </div>
+
+          <button type="button" class="btn btn-warning btn-submit" onclick="enviarEncuesta()">Enviar Encuesta</button>
+          <a href="index.html" class="btn btn-primary btn-skip">Saltar Encuesta</a>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer del código 2, ajustado para mantenerse al final de la página -->
+  <footer class="text-center">
+    <p>Tema de Bootstrap realizado por Johans Rodriguez & Oscar de la Rosa</p> 
+  </footer>
+
+  <!-- Scripts de Bootstrap y otras dependencias -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+    function enviarEncuesta() {
+      var form = document.getElementById('encuestaForm');
+      var isValid = form.checkValidity();
+
+      if (isValid) {
+        window.location.href = 'agradecimiento-encuesta.html';
+      } else {
+        alert('Por favor, responda a todas las preguntas antes de enviar la encuesta.');
+      }
+    }
+  </script>
+</body>
+</html>
